@@ -1,0 +1,384 @@
+@font-face {
+    font-family: haas-m;
+    src: url(fonts/NeueHaasDisplayMediu.ttf);
+}
+@font-face {
+    font-family: haas;
+    src: url(fonts/NeueHaasDisplayBlack.ttf);
+}
+@font-face {
+    font-family: haas-l;
+    src: url(fonts/NeueHaasDisplayLight.ttf);
+}
+@font-face {
+    font-family: haas-t;
+    src: url(fonts/NeueHaasDisplayThin.ttf);
+}
+@font-face {
+    font-family: haas-r;
+    src: url(fonts/NeueHaasDisplayRoman.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+*::selection{
+    background-color: #000;
+    color: #fff;
+}
+
+html, body{
+    min-height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+wrapper{
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+nav{
+    height: 11vh;
+    width: 100%;
+    background-color: #111111;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5.45vw;
+    position: fixed;
+}
+.what{
+    height: 0;
+    width: 10vw;
+    background-color: #fff;
+    position: absolute;
+    top: 9vh;
+    left: 49.7%;
+}
+
+nav svg{
+    width: 8.8vw;
+}
+
+.nav2{
+    display: flex;
+    width: auto;
+    align-items: center;
+    gap: 1vw;
+}
+
+.nav2 a{
+    text-transform: uppercase;
+    font-family: haas-m;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: all ease 0.2s;
+}
+.nav2 a:hover{
+    color: #20dd72c7;
+}
+#what-we-do:hover{
+    background-color: #ffffff38;
+}
+.nav2 a:last-child{
+    background-color: #0DA34E;
+    padding: 12px 30px;
+    border-radius: 50px;
+    transition: all ease 0.4s;
+}
+.nav2 a:last-child:hover{
+    scale: 1.05;
+    color: #000;
+    background-color: #fff;
+}
+
+main{
+    width: 100vw;
+    height: auto;
+    background-color: #111111;
+}
+
+.text{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 200px 0;
+    padding-bottom: 100px;
+}
+
+.page:nth-child(1){
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text h1{
+    font-size: 6vw;
+    font-family: haas-m;
+    width: 70vw;
+    text-align: center;
+    line-height: 90px;
+}
+.text h3{
+    font-family: haas-l;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 18px;
+}
+.text h3 span:nth-child(1){
+    opacity: 0.5;
+}
+.text h3 span:last-child{
+    opacity: 0.2;
+}
+
+.text p{
+    font-family: haas-m;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26.66666px;
+    letter-spacing: 0.2px;
+}
+
+.text p span{
+    color: #0DA34E;
+}
+
+video{
+    width: 89vw;
+    border-radius: 15px;
+    margin-bottom: 200px;
+}
+
+/* page 2 */
+.page:nth-child(2){
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-items{
+    height: auto;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 7px;
+}
+
+.r1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item{
+    border-radius: 30px;
+}
+
+.item h1{
+    font-size: 55px;
+    font-family: haas-m;
+}
+.item p{
+    font-size: 20px;
+    color: #888;
+    font-family: haas-r;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.r1 .item{
+    height: 53vh;
+    width: 33%;
+    background-color: #1F1F1F;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+}
+
+.r2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.r2 .item{
+    height: 41vh;
+    width: 49.8%;
+    background-color: #1F1F1F;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+}
+.r2 .item h1{
+    font-size: 45px;
+}
+
+/* page 3 */
+.page:nth-child(3){
+    min-height: 100vh;
+    width: 100vw;
+    /* background-image: url(https://images.pexels.com/photos/17484975/pexels-photo-17484975/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-depicts-how-ai-can-help-humans-to-understand-the-complexity-of-biology-it-was-created-by-artist-khyati-trehan-as-part.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 180px 0;
+    padding-bottom: 170px;
+}
+
+.page:nth-child(3) .upper, .page:nth-child(3) .lower{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.page:nth-child(3) .upper h1{
+    font-size: 100px;
+    font-family: haas-m;
+}
+.page:nth-child(3) .upper p{
+    font-size: 28px;
+    font-family: haas-l;
+    text-align: center;
+}
+
+.page:nth-child(3) .lower{
+    gap: 70px;
+}
+
+.page:nth-child(3) .lower h3{
+    font-size: 26px;
+    font-family: haas-t;
+    letter-spacing: 1.6px;
+}
+.page:nth-child(3) .lower button{
+    color:#000;
+    font-size: 18px;
+    padding: 27px 51px;
+    border: none;
+    border-radius: 50px;    
+    font-family: haas-m;
+    transition: all ease 0.5s;
+}
+.page:nth-child(3) .lower button:hover{
+    scale: 1.1;
+    background-color: #0000004d;
+    color: #ffffffce;
+}
+
+/* page 3 */
+.page:nth-child(4){
+    min-height: 100vh;
+    width: 100vw;
+    padding: 0 65px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.page:nth-child(4) .upper{
+    padding: 5px 65px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.page:nth-child(4) .upper h1{
+    font-size: 75px;
+    font-family: haas-m;
+}
+
+.page:nth-child(4) .upper p{
+    font-size: 28px;
+    font-family: haas-l;
+}
+.middle{
+    height: 85vh;
+    /* background-color: red; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row{
+    width: 100%;
+    height: 33%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px;
+}
+.row .item{
+    height: 100%;
+    width: 33%;
+    /* background-color: #1f1f1f; */
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    padding: 19px 35px;
+    gap: 30px;
+}
+.row .item p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.row .item svg{
+    width: 50%;
+}
+.row .item img{
+    width: 50%;
+}
+
+.page:nth-child(4) .lower button{
+    margin-bottom: 100px;
+    color: #fff;
+    border: none;
+    padding: 20px 80px;
+    border-radius: 50px;
+    font-size: 18px;
+    font-family: haas-m;
+    letter-spacing: 2px;
+    background-color: #4F5BFF;
+    transition: all ease 0.5s;
+    margin-left: 30px;
+}
+
+.page:nth-child(4) .lower button:hover{
+    scale: 1.1;
+    background-color: #00000075;
+    /* color: #000000d3; */
+}
+.page:nth-child(4) .lower{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* background-color: red; */
+    width: 100%;
+}
