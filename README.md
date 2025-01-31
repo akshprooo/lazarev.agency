@@ -21,9 +21,9 @@ just access the url `https://lazarev-test.netlify.app/` as this project is deplo
 
 ## Connect with me
 
-- [Email](mailto:akshdevg@gmail.com)
+- [Email](mailto:akshprooo@gmail.com)
 - [Instagram](https://www.instagram.com/akshtiwari__), (yes it has a skull profile picture)
-- [Discord](https://discord.gg/akshprooo), (yes it has a orange kinda profile picture)
+- Discord - @akshprooo
 
 ## Quick Note
 
