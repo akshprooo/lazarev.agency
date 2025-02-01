@@ -382,3 +382,117 @@ video{
     /* background-color: red; */
     width: 100%;
 }
+
+.page:nth-child(5){
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    background-color: #fff;
+}
+.page:nth-child(5) .hero{
+    height: auto;
+    width: 100vw;
+    display: flex;
+}
+.page:nth-child(5) .hero .col-left{
+    /* background-color: red; */
+    height: auto;
+    width: 50vw;
+    padding: 4.8vw 4.8vw;
+}
+
+.col-left h1{
+    font-size: 3.4vw;
+    line-height: 3.7vw;
+    font-family: haas-m;
+    color: #111111;
+    width: 25vw;
+    text-transform: capitalize;
+}
+
+.page:nth-child(5) .col-right{
+    height: auto;
+    width: 50vw;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+}
+
+.col-right .upper{
+    height: auto;
+    width: 100%;
+    /* background-color: blue; */
+    padding: 3vw 3.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.col-right .lower{
+    height: 50%;
+    width: 100%;
+    /* background-color: red; */
+    padding: 3vw 3.5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.col-right p{
+    font-size: 15px;
+    color: #B0B0B0;
+    font-family: haas-l;
+}
+.col-right h3{
+    font-size: 29px;
+    line-height: 2vw;
+    color: #222222;
+    font-family: haas-t;
+    letter-spacing: 2px;
+}
+
+.lower-grid{
+    width: 100%;
+    height: auto;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 3vw 6vw;
+}
+.grid-item{
+    width: 33%;
+    height: 30vh;
+    background-color: rgba(223, 221, 221, 0.747);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2.5vw 3vw;
+}
+
+.grid-item h1{
+    font-size: 3.5vw;
+    color: #111;
+    font-family: haas-m;
+}
+
+.grid-item .lower{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.grid-item .lower p{
+    color: #474646;
+    font-size: 20px;
+    font-family: haas-m;
+}
+.grid-item .lower h3{
+    color: #888;
+    font-family: haas-l;
+    font-size: 20px;
+}
