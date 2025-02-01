@@ -461,10 +461,10 @@ video{
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
-    padding: 3vw 6vw;
+    padding: 3vw 39px;
 }
 .grid-item{
-    width: 33%;
+    width: 32%;
     height: 30vh;
     background-color: rgba(223, 221, 221, 0.747);
     border-radius: 10px;
