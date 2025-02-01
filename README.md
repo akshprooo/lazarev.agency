@@ -37,4 +37,4 @@ This Project is just made for learning purposes and is sill under developement..
 
 ## Bye From "Aksh Tiwari"
 
-Thank you for visiting my project and i hope you liked it..
+Thank you for visiting this project and i hope you liked it..
