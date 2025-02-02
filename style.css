@@ -496,3 +496,137 @@ video{
     font-family: haas-l;
     font-size: 20px;
 }
+
+.page:nth-child(6){
+    background-color: #111111;
+    width: 100vw;
+    min-height: 100vh;
+}
+.page:nth-child(6) .upper{
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    padding: 8vw 6vw;
+    gap: 5vw;
+}
+
+.page:nth-child(6) .upper h1{
+    font-family: haas-m;
+    font-size: 4.9vw;
+    line-height: 4.9vw;
+}
+
+.page:nth-child(6) .upper p{
+    font-family: haas-r;
+    font-size: 1.8vw;
+    width: 60vw;
+    letter-spacing: 1px;
+
+}
+
+.projects{
+    width: 100%;
+    height: auto;
+    border-top: 2px solid #4e4e4e;
+    display: flex;
+}
+
+
+
+.db{
+    width: 30%;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 3vw;
+}
+.db .top{
+    display: flex;
+    flex-direction: column;
+    gap: 0.4vw;
+    padding: 0 6vw;
+}
+
+.top .elem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #4e4e4e;
+    border-bottom: 1px solid #4e4e4e;
+    padding: 0.5vw 0;
+}
+.top .elem p{
+    font-size: 0.8vw;
+    font-family: haas-m;
+    text-transform: uppercase;
+}
+
+.top .elem p span{
+    color: #0DA34E;
+}
+
+.db button{
+    color: #fff;
+    font-size: 1vw;
+    font-family: haas-m;
+    padding: 1.3vw 3.2vw;
+    margin: 0 5vw;
+    border: none;
+    border-radius: 50px;
+    background-color: #4F5BFF;
+    text-transform: uppercase;
+}
+
+.pro{
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2vw;
+}
+
+.card{
+    width: 46%;
+    height: 92vh;
+    /* background-color: rgb(48, 48, 48); */
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    text-align: center;
+    padding: 5vw 0;
+    gap: 3vw;
+    align-items: center;
+    border-right: 2px solid #1F1F1F;
+    border-left: 2px solid #1F1F1F;
+    border-top: 0px solid #fff;
+    border-bottom: 0px solid #fff;
+}
+
+
+.card h1{
+    font-family: haas-m;
+    font-size: 3vw;
+    line-height: 3.3vw;
+}
+
+.card p{
+    font-family: haas-m;
+    color: #888;
+    font-size: 2vw;
+    text-align: center;
+    width: 80%;
+}
+
+.card button{
+    color: #fff;
+    font-size: 1vw;
+    font-family: haas-m;
+    padding: 1.3vw 3.2vw;
+    margin: 0 5vw;
+    border: none;
+    border-radius: 50px;
+    background-color: #4F5BFF;
+    text-transform: uppercase;
+}

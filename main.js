@@ -50,3 +50,22 @@ videoTL.to('video', {
     borderRadius: '0',
     zIndex: 100
 })
+
+var card = document.querySelectorAll('.card');
+
+card.forEach(card => {
+    card.addEventListener('mouseenter', function(elem){
+        gsap.to(card, {
+            borderTop: '2px solid #fff',
+            borderBottom: '2px solid #fff',
+            duration: 0.1
+        })
+    })
+    card.addEventListener('mouseleave', function(elem){
+        gsap.to(card, {
+            borderTop: '0px solid #fff',
+            borderBottom: '0px solid #fff',
+            duration: 0.1
+        })
+    })
+})
